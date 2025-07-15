@@ -1,5 +1,4 @@
-# Version Control Modules for Middle School Students  
-
+# Version Control Modules for Beginners
 ## Overview  
 This project aims to make version control concepts accessible and engaging for middle school students. Through interactive and fun learning modules, students gain a foundational understanding of Git and its applications in software development.  
 
