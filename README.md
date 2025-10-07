@@ -95,18 +95,27 @@ EEG-Emotion-Classifier/
 
 ## Example Results
 
-| Model | Accuracy | F1-Score |
-|--------|-----------|----------|
-| RandomForestClassifier | 0.84 | 0.82 |
-| SVM (RBF) | 0.80 | 0.78 |
+---
 
-*(Results will vary by dataset and preprocessing choices.)*
+## Results & Discussion
 
-**Example Output:**
-- Brainwave Power Plot – alpha vs. beta activity by emotion  
-- Confusion Matrix – predicted vs. actual emotional state  
-- Model Feature Importance Chart  
+| Emotion | Precision | Recall | F1-Score |
+|----------|------------|---------|----------|
+| NEGATIVE | 1.00 | 1.00 | 1.00 |
+| NEUTRAL  | 1.00 | 1.00 | 1.00 |
+| POSITIVE | 1.00 | 1.00 | 1.00 |
 
+**Overall Accuracy:** 0.998  
+
+The Random Forest classifier shows exceptional performance in identifying emotional states from EEG-derived features.  
+This suggests that spectral and statistical EEG metrics (e.g., mean, entropy, FFT bands) carry highly discriminative emotional signatures.
+
+> ⚠️ *In real research contexts, results like these should be validated on unseen subjects to rule out overfitting.*  
+> Still, this project demonstrates how a fully reproducible ML pipeline can support affective neuroscience and mental-health research.
+
+**Example Outputs**
+- Confusion Matrix – Model Predictions vs. True Labels  
+- Top Feature Importances – EEG metrics contributing most to emotion classification  
 ---
 
 ## Example Usage
