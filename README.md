@@ -1,4 +1,4 @@
-# 🧠 EEG Emotion Classification Pipeline  
+# EEG Emotion Classification Pipeline  
 *A Machine Learning approach to decoding emotional states from brain signals*
 
 ---
